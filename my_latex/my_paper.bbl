@@ -1,0 +1,84 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{happiest}
+A.~Dhall, J.~Joshi, I.~Radwan, and R.~Goecke.
+\newblock Finding happiest moments in a social context.
+\newblock In K.~M. Lee, Y.~Matsushita, J.~M. Rehg, and Z.~Hu, editors, {\em
+  ACCV 2}, volume 7725, pages 613--626. Springer, 2012.
+
+\bibitem{decaf}
+J.~Donahue, Y.~Jia, O.~Vinyals, J.~Hoffman, N.~Zhang, E.~Tzeng, and T.~Darrell.
+\newblock Decaf: A deep convolutional activation feature for generic visual
+  recognition.
+\newblock {\em CoRR}, abs/1310.1531, 2013.
+
+\bibitem{liblinear}
+R.-E. Fan, K.-W. Chang, C.-J. Hsieh, X.-R. Wang, and C.-J. Lin.
+\newblock Liblinear: A library for large linear classification.
+\newblock {\em Journal of Machine Learning Research}, 9:1871--1874, 2008.
+
+\bibitem{groupstructure}
+A.~C. Gallagher and T.~Chen.
+\newblock Understanding images of groups of people.
+\newblock In {\em CVPR}, pages 256--263. IEEE, 2009.
+
+\bibitem{finegrain}
+P.-H. Gosselin, N.~Murray, H.~J{\'e}gou, and F.~Perronnin.
+\newblock Inria+xerox@fgcomp: Boosting the fisher vector for fine-grained
+  classification.
+\newblock Technical Report~0, INRIA, December 2013.
+
+\bibitem{caffe}
+Y.~Jia.
+\newblock {Caffe}: An open source convolutional architecture for fast feature
+  embedding.
+\newblock http://caffe.berkeleyvision.org/, 2013.
+
+\bibitem{imagenet}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In P.~L. Bartlett, F.~C.~N. Pereira, C.~J.~C. Burges, L.~Bottou, and
+  K.~Q. Weinberger, editors, {\em NIPS}, pages 1106--1114, 2012.
+
+\bibitem{urbantribe2}
+I.~S. Kwak, A.~C. Murillo, P.~Belhumeur, S.~Belongie, and D.~Kriegman.
+\newblock From bikers to surfers: Visual recognition of urban tribes.
+\newblock In {\em British Machine Vision Conference (BMVC)}, Bristol, September
+  2013.
+
+\bibitem{tsne}
+G.~H. Laurens van~der Maaten.
+\newblock Visualizing data using t-sne.
+\newblock {\em Journal of Machine Learning Research}, 9:2579--2605, November
+  2008.
+
+\bibitem{lecun89}
+Y.~LeCun, B.~Boser, J.~S. Denker, D.~Henderson, R.~E. Howard, W.~Hubbard, and
+  L.~D. Jackel.
+\newblock Backpropagation applied to handwritten zip code recognition.
+\newblock {\em Neural Computation}, 1:541--551, 1989.
+
+\bibitem{lecun98}
+Y.~LeCun, L.~Bottou, Y.~Bengio, and P.~Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock In {\em Proceedings of the IEEE}, volume~86, pages 2278--2324, 1998.
+
+\bibitem{urbantribe}
+A.~C. Murillo, I.~S. Kwak, L.~Bourdev, D.~Kriegman, and S.~Belongie.
+\newblock Urban tribes: Analyzing group photos from a social perspective.
+\newblock In {\em CVPR Workshop on Socially Intelligent Surveillance and
+  Monitoring (SISM)}, Providence, RI, June 2012.
+
+\bibitem{socialrelationship}
+G.~Wang, A.~C. Gallagher, J.~Luo, and D.~A. Forsyth.
+\newblock Seeing people in social context: Recognizing people and social
+  relationships.
+\newblock In K.~Daniilidis, P.~Maragos, and N.~Paragios, editors, {\em ECCV},
+  volume 6215, pages 169--182. Springer, 2010.
+
+\bibitem{imagenet13}
+M.~D. Zeiler and R.~Fergus.
+\newblock Visualizing and understanding convolutional networks.
+\newblock {\em CoRR}, abs/1311.2901, 2013.
+
+\end{thebibliography}
