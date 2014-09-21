@@ -2,16 +2,20 @@
 \citation{urbantribe2}
 \citation{urbantribe}
 \citation{urbantribe2}
-\citation{Imagenet13}
-\citation{Imagenet13}
+\citation{ImageNet13}
+\citation{ImageNet13}
 \citation{decaf}
-\citation{Imagenet}
+\citation{ImageNet}
 \citation{urbantribe2}
+\@writefile{toc}{\contentsline {section}{\numberline {1}\hskip -1em.\nobreakspace  {}Introduction}{1}}
 \citation{lecun89}
 \citation{lecun98}
-\citation{Imagenet}
-\@writefile{toc}{\contentsline {section}{\numberline {1}\hskip -1em.\nobreakspace  {}Introduction}{1}}
-\citation{Imagenet13}
+\citation{ImageNet}
+\citation{googlenet}
+\citation{overfeat}
+\citation{googlenet}
+\citation{overfeat}
+\citation{ImageNet13}
 \citation{decaf}
 \citation{urbantribe2}
 \citation{urbantribe}
@@ -28,51 +32,50 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\hskip -1em.\nobreakspace  {}Classification hierarchy}{2}}
 \citation{liblinear}
 \citation{caffe}
-\citation{Imagenet}
-\citation{Imagenet}
+\citation{ImageNet}
+\citation{ImageNet}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}\hskip -1em.\nobreakspace  {}Convolutional network feature extraction}{3}}
 \newlabel{sectioncnn}{{3.3}{3}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Pre-processing of the dataset}{3}}
 \newlabel{sectioncropping}{{3.3.1}{3}}
 \citation{caffe}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Architecture of classification algorithm using $\textup  {Nets}_{SDense}$. The upper half estimates the probability given people candidate images, and the lower half estimates the probability given the entire scene. Dense crop $\textup  {CNN}_{Scene}$ and distorted crop $\textup  {CNN}_{Person}$ are used.\relax }}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Architecture of classification algorithm using $\textup  {Nets}_{SDense}$ which is introduced in Section\nobreakspace  {}3.3.3\hbox {}. The upper half estimates the probability given people candidate images, and the lower half estimates the probability given the entire scene. Dense crop $\textup  {CNN}_{Scene}$ and distorted crop $\textup  {CNN}_{Person}$ are used, as shonw in Section\nobreakspace  {}3.3.1\hbox {}.\relax }}{4}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{Flowchart}{{1}{4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Network Finetune}{4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Network modification}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Network Fine-tune}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Choices of network combination}{4}}
+\newlabel{sectionmethods}{{3.3.3}{4}}
 \citation{caffe}
 \citation{urbantribe2}
 \citation{urbantribe2}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.4}Choices of network combination}{5}}
-\newlabel{sectionmethods}{{3.3.4}{5}}
+\citation{tsne}
 \@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.\nobreakspace  {}Experiments and Results}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}\hskip -1em.\nobreakspace  {}Urban tribe classification performance}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Confusion matrix for classification results with $\textup  {Nets}_{SDense}$, using people and scene features.\relax }}{5}}
 \newlabel{confusion}{{2}{5}}
-\citation{tsne}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Performance of different approaches using different information. \relax }}{6}}
 \newlabel{table1}{{1}{6}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}\hskip -1em.\nobreakspace  {}Convolutional Network feature analysis}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}\hskip -1em.\nobreakspace  {}Urban tribe classes vs. ImageNet classes }{6}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Feature visualization of $\textup  {Nets}_{SDense}$: $\textup  {CNN}_{Scene}$ (first two rows) and $\textup  {CNN}_{Person}$(second two rows). Rows: first: all scene images; second: all data from goth/heavy/surfer urban tribes; third: all test person images; fourth: all test data from goth/heavy/surfer urban tribes. Columns: first: first convolutional layer; second: fourth convolutional layer; third: seventh fully convolutional layer\relax }}{6}}
 \newlabel{tsne}{{3}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}\hskip -1em.\nobreakspace  {}Urban tribe classes vs. Imagenet classes }{6}}
-\bibstyle{ieee}
+\bibstyle{hieeetr}
 \bibdata{my_paper}
-\bibcite{happiest}{1}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Correlation and mutual information of $l_{urban}$ and 1000 $l_{Imagenet}$. The first row is for $l_{urban}$=Biker. The second row is for $I_{urban}$=Hipster. Top three Imagenet classes are marked. \relax }}{7}}
+\bibcite{urbantribe2}{1}
+\bibcite{urbantribe}{2}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Correlation and mutual information of $l_{urban}$ and 1000 $l_{ImageNet}$. The first row is for $l_{urban}$=Biker. The second row is for $I_{urban}$=Hipster. Top three ImageNet classes are marked. \relax }}{7}}
 \newlabel{correlation_muti}{{4}{7}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Conclusion}{7}}
-\bibcite{decaf}{2}
-\bibcite{liblinear}{3}
-\bibcite{groupstructure}{4}
-\bibcite{finegrain}{5}
-\bibcite{caffe}{6}
-\bibcite{imagenet}{7}
-\bibcite{urbantribe2}{8}
-\bibcite{tsne}{9}
-\bibcite{lecun89}{10}
-\bibcite{lecun98}{11}
-\bibcite{urbantribe}{12}
+\bibcite{ImageNet13}{3}
+\bibcite{decaf}{4}
+\bibcite{ImageNet}{5}
+\bibcite{lecun89}{6}
+\bibcite{lecun98}{7}
+\bibcite{googlenet}{8}
+\bibcite{overfeat}{9}
+\bibcite{finegrain}{10}
+\bibcite{caffe}{11}
+\bibcite{groupstructure}{12}
 \bibcite{socialrelationship}{13}
 \newlabel{feature1}{{5a}{8}}
 \newlabel{sub@feature1}{{a}{8}}
@@ -82,7 +85,7 @@
 \newlabel{sub@feature3}{{c}{8}}
 \newlabel{feature4}{{5d}{8}}
 \newlabel{sub@feature4}{{d}{8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces selected urban tribe classes and the corresponding highest correlation $l_{Imagenet}$. Upper nine images: person candidate images with high $\textup  {Pr}(l_{Imagenet})$ and high $\textup  {Pr}(l_{urban})$. Lower eight images: example of images in $l_{Imagenet}$.\relax }}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces selected urban tribe classes and the corresponding highest correlation $l_{ImageNet}$. Upper nine images: candidate person images with high $\textup  {Pr}(l_{ImageNet})$ and high $\textup  {Pr}(l_{urban})$. Lower eight images: example of images in $l_{ImageNet}$.\relax }}{8}}
 \newlabel{features}{{5}{8}}
 \newlabel{sb1}{{6a}{8}}
 \newlabel{sub@sb1}{{a}{8}}
@@ -92,6 +95,8 @@
 \newlabel{sub@sb3}{{c}{8}}
 \newlabel{sb4}{{6d}{8}}
 \newlabel{sub@sb4}{{d}{8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The relationship between class-wise recognition rate and maximum of correlation $R(\textup  {Pr}(l_{urban}),\textup  {Pr}(l_{Imagenet}))$, class-wise recognition rate and maximum of mutual information $I(l_{urban},l_{Imagenet})$\relax }}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The relationship between class-wise recognition rate and maximum of correlation $R(\textup  {Pr}(l_{urban}),\textup  {Pr}(l_{ImageNet}))$, class-wise recognition rate and maximum of mutual information $I(l_{urban},l_{ImageNet})$\relax }}{8}}
 \newlabel{accuracy_correlation_mutu}{{6}{8}}
-\bibcite{imagenet13}{14}
+\bibcite{happiest}{14}
+\bibcite{liblinear}{15}
+\bibcite{tsne}{16}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  20 SEP 2014 11:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  20 SEP 2014 23:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,47 +24,17 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 ) (./wacv.sty
-(/usr/local/texlive/2013/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+(./eso-pic.sty
+Package: eso-pic 2002/11/16 v1.1b eso-pic (RN)
+ (./wacv_eso.sty
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+LaTeX Warning: You have requested package `eso-pic',
+               but the package provides `everyshi'.
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count87
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
@@ -73,15 +43,15 @@ wacv 8.5 x 11-Inch Proceedings Style `wacv.sty'.
 \@ctmp=\skip43
 \@figindent=\skip44
 \wacvrulerbox=\box26
-\wacvrulercount=\count88
+\wacvrulercount=\count87
 \wacvruleroffset=\dimen103
 \cv@lineheight=\dimen104
 \cv@boxheight=\dimen105
 \cv@tmpbox=\box27
-\cv@refno=\count89
-\cv@tot=\count90
-\cv@tmpc@=\count91
-\cv@tmpc=\count92
+\cv@refno=\count88
+\cv@tot=\count89
+\cv@tmpc@=\count90
+\cv@tmpc=\count91
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
@@ -101,7 +71,18 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+))
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
@@ -226,13 +207,20 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 27.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) ABD: EveryShipout initializing macros
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-\AtBeginShipoutBox=\box30
- (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen126
-\scratchbox=\box31
+\scratchbox=\box30
 \nofMPsegments=\count109
 \nofMParguments=\count110
 \everyMPshowfont=\toks20
@@ -248,6 +236,10 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -302,108 +294,82 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
 
-Underfull \hbox (badness 1394) in paragraph at lines 59--60
+Underfull \hbox (badness 1394) in paragraph at lines 58--59
 []\OT1/ptm/m/n/10 In the past few years, there have been im-pres-sive
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
-
-LaTeX Warning: Citation `Imagenet13' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Citation `Imagenet13' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Citation `Imagenet' on page 1 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Imagenet' on page 1 undefined on input line 82.
-
-
-Underfull \hbox (badness 4193) in paragraph at lines 82--83
-[]\OT1/ptm/m/n/10 Convolutional Neu-ral Net-works(CNNs) with back-
- []
-
-
-Underfull \vbox (badness 5119) has occurred while \output is active []
-
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 83.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 78.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 ) [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-
-LaTeX Warning: Citation `Imagenet13' on page 2 undefined on input line 84.
-
-
-Underfull \hbox (badness 2020) in paragraph at lines 114--115
-\OT1/ptm/m/n/10 the Con-vo-lu-tional Neu-ral Net-work for per-son im-ages
+Underfull \hbox (badness 4193) in paragraph at lines 81--82
+[]\OT1/ptm/m/n/10 Convolutional Neu-ral Net-works(CNNs) with back-
  []
 
 [2]
-Underfull \hbox (badness 1137) in paragraph at lines 116--117
+Underfull \hbox (badness 2020) in paragraph at lines 109--110
+\OT1/ptm/m/n/10 the Con-vo-lu-tional Neu-ral Net-work for per-son im-ages
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 111--112
 []\OT1/ptm/m/n/10 The fea-ture vec-tors are then fed into a multi-class
  []
 
 
-Overfull \hbox (22.39815pt too wide) in paragraph at lines 141--141
+Overfull \hbox (22.39815pt too wide) in paragraph at lines 136--136
 [] 
  []
 
-<flowchart2.png, id=19, 1222.5675pt x 594.22pt>
+<flowchart2.png, id=14, 1222.5675pt x 594.22pt>
 File: flowchart2.png Graphic file (type png)
  <use flowchart2.png>
-Package pdftex.def Info: flowchart2.png used on input line 148.
+Package pdftex.def Info: flowchart2.png used on input line 143.
 (pdftex.def)             Requested size: 397.48651pt x 193.19174pt.
-
-
-LaTeX Warning: Citation `Imagenet' on page 3 undefined on input line 160.
-
-
-LaTeX Warning: Citation `Imagenet' on page 3 undefined on input line 171.
-
-[3]
-Underfull \vbox (badness 4036) has occurred while \output is active []
-
- [4 <./flowchart2.png>] <confusion.png, id=27, 722.7pt x 722.7pt>
+ [3]
+[4 <./flowchart2.png>] <confusion.png, id=27, 722.7pt x 722.7pt>
 File: confusion.png Graphic file (type png)
- <use confusion.png>
-Package pdftex.def Info: confusion.png used on input line 228.
+
+<use confusion.png>
+Package pdftex.def Info: confusion.png used on input line 223.
 (pdftex.def)             Requested size: 189.70947pt x 189.70607pt.
 
-Underfull \hbox (badness 3965) in paragraph at lines 237--238
+Underfull \hbox (badness 3965) in paragraph at lines 232--233
 []\OT1/ptm/m/n/10 The con-fu-sion ma-trix is shown in Fig-ure 2[] for
  []
 
-[5 <./confusion.png>] <tsne.png, id=33, 704.6325pt x 713.66624pt>
-File: tsne.png Graphic file (type png)
 
-<use tsne.png>
-Package pdftex.def Info: tsne.png used on input line 271.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./confusion.png>] <tsne.png, id=33, 704.6325pt x 713.66624pt>
+File: tsne.png Graphic file (type png)
+ <use tsne.png>
+Package pdftex.def Info: tsne.png used on input line 266.
 (pdftex.def)             Requested size: 189.70947pt x 192.13708pt.
 
-Underfull \hbox (badness 4569) in paragraph at lines 273--273
+Underfull \hbox (badness 4569) in paragraph at lines 268--268
 \OT1/ptm/m/n/10 (first two rows) and $[][]$(second two rows).
  []
 
 [6 <./tsne.png>]
-Underfull \hbox (badness 1472) in paragraph at lines 285--286
+Underfull \hbox (badness 1472) in paragraph at lines 280--281
 []\OT1/ptm/m/n/10 We first check the re-la-tion-shape of $[]\OT1/cmr/m/n/10 (\O
 ML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 and
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 285--286
-[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 of pe
-r-son can-di-date im-ages. We cal-
+Underfull \hbox (badness 1859) in paragraph at lines 280--281
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 of ca
+n-di-date per-son im-ages. We cal-
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 285--286
+Underfull \hbox (badness 6592) in paragraph at lines 280--281
 \OT1/ptm/m/n/10 cu-late the cor-re-la-tion co-ef-fi-cient of $[]\OT1/cmr/m/n/10
  (\OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 and
  []
@@ -411,95 +377,106 @@ Underfull \hbox (badness 6592) in paragraph at lines 285--286
 <correlation.png, id=38, 1004.75375pt x 779.91376pt>
 File: correlation.png Graphic file (type png)
  <use correlation.png>
-Package pdftex.def Info: correlation.png used on input line 300.
+Package pdftex.def Info: correlation.png used on input line 295.
 (pdftex.def)             Requested size: 237.13594pt x 184.06519pt.
 
 <feature1.png, id=39, 398.48875pt x 602.25pt>
 File: feature1.png Graphic file (type png)
  <use feature1.png>
-Package pdftex.def Info: feature1.png used on input line 309.
+Package pdftex.def Info: feature1.png used on input line 304.
 (pdftex.def)             Requested size: 99.36972pt x 150.17616pt.
 
 <feature2.png, id=40, 397.485pt x 601.24625pt>
 File: feature2.png Graphic file (type png)
  <use feature2.png>
-Package pdftex.def Info: feature2.png used on input line 314.
+Package pdftex.def Info: feature2.png used on input line 309.
 (pdftex.def)             Requested size: 99.36972pt x 150.31119pt.
 
 <feature3.png, id=41, 397.485pt x 607.26875pt>
 File: feature3.png Graphic file (type png)
  <use feature3.png>
-Package pdftex.def Info: feature3.png used on input line 319.
+Package pdftex.def Info: feature3.png used on input line 314.
 (pdftex.def)             Requested size: 99.36972pt x 151.81682pt.
 
 <feature4.png, id=42, 396.48125pt x 611.28375pt>
 File: feature4.png Graphic file (type png)
  <use feature4.png>
-Package pdftex.def Info: feature4.png used on input line 324.
+Package pdftex.def Info: feature4.png used on input line 319.
 (pdftex.def)             Requested size: 99.36972pt x 153.20299pt.
 
 <individual_accuracy_corr1.png, id=43, 521.7894pt x 405.1938pt>
 File: individual_accuracy_corr1.png Graphic file (type png)
 
 <use individual_accuracy_corr1.png>
-Package pdftex.def Info: individual_accuracy_corr1.png used on input line 336.
+Package pdftex.def Info: individual_accuracy_corr1.png used on input line 331.
 (pdftex.def)             Requested size: 114.27481pt x 88.73485pt.
 
 <individual_accuracy_mutinf1.png, id=44, 530.9436pt x 406.1574pt>
 File: individual_accuracy_mutinf1.png Graphic file (type png)
 
 <use individual_accuracy_mutinf1.png>
-Package pdftex.def Info: individual_accuracy_mutinf1.png used on input line 341
+Package pdftex.def Info: individual_accuracy_mutinf1.png used on input line 336
 .
 (pdftex.def)             Requested size: 114.27481pt x 87.4151pt.
 
 <accuracy_corr1.png, id=45, 523.2348pt x 404.2302pt>
 File: accuracy_corr1.png Graphic file (type png)
  <use accuracy_corr1.png>
-Package pdftex.def Info: accuracy_corr1.png used on input line 346.
+Package pdftex.def Info: accuracy_corr1.png used on input line 341.
 (pdftex.def)             Requested size: 114.27481pt x 88.28326pt.
 
 <accuracy_mutinf1.png, id=46, 535.7616pt x 410.4936pt>
 File: accuracy_mutinf1.png Graphic file (type png)
 
 <use accuracy_mutinf1.png>
-Package pdftex.def Info: accuracy_mutinf1.png used on input line 351.
+Package pdftex.def Info: accuracy_mutinf1.png used on input line 346.
 (pdftex.def)             Requested size: 114.27481pt x 87.55287pt.
- (./my_paper.bbl
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./my_paper.bbl
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
- [7 <./correlation.png>] [8 <./feature1.png> <./feature2.png> <./feature3.png> 
-<./feature4.png> <./individual_accuracy_corr1.png> <./individual_accuracy_mutin
-f1.png> <./accuracy_corr1.png> <./accuracy_mutinf1.png>]) [9
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
+ [7 <./correlation.png>]
+Underfull \hbox (badness 6428) in paragraph at lines 40--43
+[]\OT1/ptm/m/n/9 C. Szegedy, W. Liu, Y. Jia, P. Ser-manet, S. R.
+ []
 
-] (./my_paper.aux)
+[8 <./feature1.png> <./feature2.png> <./feature3.png> <./feature4.png> <./indiv
+idual_accuracy_corr1.png> <./individual_accuracy_mutinf1.png> <./accuracy_corr1
+.png> <./accuracy_mutinf1.png>]
+Underfull \hbox (badness 1253) in paragraph at lines 80--82
+\OT1/ptm/m/n/9 t-sne,'' \OT1/ptm/m/it/9 Jour-nal of Ma-chine Learn-ing Re-searc
+h\OT1/ptm/m/n/9 , vol. 9,
+ []
 
-LaTeX Warning: There were undefined references.
+) [9
 
- ) 
+] (./my_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4479 strings out of 493315
- 64757 string characters out of 6137904
- 143581 words of memory out of 5000000
- 7822 multiletter control sequences out of 15000+600000
+ 3972 strings out of 493315
+ 58399 string characters out of 6137904
+ 130248 words of memory out of 5000000
+ 7318 multiletter control sequences out of 15000+600000
  39287 words of font info for 84 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 45i,18n,39p,2065b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on my_paper.pdf (9 pages, 10230798 bytes).
+ 38i,18n,38p,2065b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r
+.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-d
+ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on my_paper.pdf (9 pages, 10233581 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
