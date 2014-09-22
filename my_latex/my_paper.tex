@@ -78,7 +78,11 @@ We further investigate why features extracted from pre-trained CNN are useful fo
 
 
 \section{Related Work}
-Convolutional Neural Networks(CNNs) with back-propogation were introduced around 1990's by LeCun \etal\cite{lecun89}.  Since then, CNNs have shown successful results on various computer vision tasks, such as hand-written digit classification (\cite{lecun98}), ImageNet Large Scale Visual Recognition Challenge (\cite{ImageNet}, \cite{googlenet}), object detection (\cite{overfeat},\cite{googlenet}), object localization (\cite{overfeat}).
+%\cite{nin}:compute more abstract features for local patches
+%\cite{dropout}: avoid overfitting
+%\cite{maxout}:change the activation function
+
+Convolutional Neural Networks(CNNs) with back-propogation were introduced around 1990's by LeCun \etal\cite{lecun89}.  Since then, CNNs have shown successful results on various computer vision tasks, such as hand-written digit classification (\cite{lecun98},\cite{maxout}), ImageNet Large Scale Visual Recognition Challenge (\cite{ImageNet}, \cite{googlenet}), object detection (\cite{overfeat},\cite{googlenet}), object localization (\cite{overfeat}), and many modified architecture of CNNs have been proposed(\cite{dropout}\cite{maxout}\cite{nin}).
 
 Recently, many researchers have shown the utility of generalization of pre-trained CNN features on large dataset such as ImageNet. Krizhevsky \etal showed excellent generalization of the pre-trained CNN features\cite{ImageNet13}. They kept all the layers of ImageNet-trained model using fixed pre-trained features except for the last softmax classifier, and achieved best results on Caltech-101 and Caltech-256. Donahue \etal used different layers of pre-trained CNN network as features and trained simple classifiers such as SVM and Logistic Regression, and outperformed the state-of the-art on several vision challenges such as scene recognition and domain adaptation\cite{decaf} . 
 

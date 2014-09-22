@@ -1,5 +1,18 @@
 \begin{thebibliography}{10}
 
+\bibitem{nin}
+I.~J. Goodfellow, D.~Warde-Farley, M.~Mirza, A.~Courville, and Y.~Bengio,
+  ``{Network in network},'' 2013, arXiv:1312.4400.
+
+\bibitem{dropout}
+G.~E. Hinton, N.~Srivastava, A.~Krizhevsky, I.~Sutskever, and R.~Salakhutdinov,
+  ``Improving neural networks by preventing co-adaptation of feature
+  detectors,'' {\em CoRR}, vol.~abs/1207.0580, 2012.
+
+\bibitem{maxout}
+I.~J. Goodfellow, D.~Warde-Farley, M.~Mirza, A.~Courville, and Y.~Bengio,
+  ``{Maxout networks},'' 2013, arXiv:1302.4389.
+
 \bibitem{urbantribe2}
 I.~S. Kwak, A.~C. Murillo, P.~Belhumeur, S.~Belongie, and D.~Kriegman, ``From
   bikers to surfers: Visual recognition of urban tribes,'' in {\em British
