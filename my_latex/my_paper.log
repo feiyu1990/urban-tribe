@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  21 SEP 2014 21:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  22 SEP 2014 11:29
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **my_paper.tex
 (./my_paper.tex
@@ -322,9 +321,6 @@ Underfull \hbox (badness 1137) in paragraph at lines 115--116
  []
 
 
-Underfull \vbox (badness 3168) has occurred while \output is active []
-
-
 Overfull \hbox (22.39815pt too wide) in paragraph at lines 140--140
 [] 
  []
@@ -332,17 +328,17 @@ Overfull \hbox (22.39815pt too wide) in paragraph at lines 140--140
 <flowchart2.png, id=14, 1222.5675pt x 594.22pt>
 File: flowchart2.png Graphic file (type png)
  <use flowchart2.png>
-Package pdftex.def Info: flowchart2.png used on input line 147.
+Package pdftex.def Info: flowchart2.png used on input line 146.
 (pdftex.def)             Requested size: 397.48651pt x 193.19174pt.
  [3]
 [4 <./flowchart2.png>] <confusion.png, id=27, 722.7pt x 722.7pt>
 File: confusion.png Graphic file (type png)
 
 <use confusion.png>
-Package pdftex.def Info: confusion.png used on input line 227.
+Package pdftex.def Info: confusion.png used on input line 226.
 (pdftex.def)             Requested size: 189.70947pt x 189.70607pt.
 
-Underfull \hbox (badness 3965) in paragraph at lines 236--237
+Underfull \hbox (badness 3965) in paragraph at lines 235--236
 []\OT1/ptm/m/n/10 The con-fu-sion ma-trix is shown in Fig-ure 2[] for
  []
 
@@ -350,27 +346,27 @@ Underfull \hbox (badness 3965) in paragraph at lines 236--237
 File: tsne.png Graphic file (type png)
 
 <use tsne.png>
-Package pdftex.def Info: tsne.png used on input line 270.
+Package pdftex.def Info: tsne.png used on input line 269.
 (pdftex.def)             Requested size: 189.70947pt x 192.13708pt.
 
-Underfull \hbox (badness 4569) in paragraph at lines 272--272
+Underfull \hbox (badness 4569) in paragraph at lines 271--271
 \OT1/ptm/m/n/10 (first two rows) and $[][]$(second two rows).
  []
 
 [6 <./tsne.png>]
-Underfull \hbox (badness 1472) in paragraph at lines 284--285
+Underfull \hbox (badness 1472) in paragraph at lines 283--284
 []\OT1/ptm/m/n/10 We first check the re-la-tion-shape of $[]\OT1/cmr/m/n/10 (\O
 ML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 and
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 284--285
+Underfull \hbox (badness 1859) in paragraph at lines 283--284
 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 of ca
 n-di-date per-son im-ages. We cal-
  []
 
 
-Underfull \hbox (badness 6592) in paragraph at lines 284--285
+Underfull \hbox (badness 6592) in paragraph at lines 283--284
 \OT1/ptm/m/n/10 cu-late the cor-re-la-tion co-ef-fi-cient of $[]\OT1/cmr/m/n/10
  (\OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 and
  []
@@ -378,95 +374,95 @@ Underfull \hbox (badness 6592) in paragraph at lines 284--285
 <correlation.png, id=38, 1004.75375pt x 779.91376pt>
 File: correlation.png Graphic file (type png)
  <use correlation.png>
-Package pdftex.def Info: correlation.png used on input line 299.
+Package pdftex.def Info: correlation.png used on input line 298.
 (pdftex.def)             Requested size: 237.13594pt x 184.06519pt.
 
 <feature1.png, id=39, 398.48875pt x 602.25pt>
 File: feature1.png Graphic file (type png)
  <use feature1.png>
-Package pdftex.def Info: feature1.png used on input line 308.
+Package pdftex.def Info: feature1.png used on input line 307.
 (pdftex.def)             Requested size: 99.36972pt x 150.17616pt.
 
 <feature2.png, id=40, 397.485pt x 601.24625pt>
 File: feature2.png Graphic file (type png)
  <use feature2.png>
-Package pdftex.def Info: feature2.png used on input line 313.
+Package pdftex.def Info: feature2.png used on input line 312.
 (pdftex.def)             Requested size: 99.36972pt x 150.31119pt.
 
 <feature3.png, id=41, 397.485pt x 607.26875pt>
 File: feature3.png Graphic file (type png)
  <use feature3.png>
-Package pdftex.def Info: feature3.png used on input line 318.
+Package pdftex.def Info: feature3.png used on input line 317.
 (pdftex.def)             Requested size: 99.36972pt x 151.81682pt.
 
 <feature4.png, id=42, 396.48125pt x 611.28375pt>
 File: feature4.png Graphic file (type png)
  <use feature4.png>
-Package pdftex.def Info: feature4.png used on input line 323.
+Package pdftex.def Info: feature4.png used on input line 322.
 (pdftex.def)             Requested size: 99.36972pt x 153.20299pt.
 
 <individual_accuracy_corr1.png, id=43, 521.7894pt x 405.1938pt>
 File: individual_accuracy_corr1.png Graphic file (type png)
 
 <use individual_accuracy_corr1.png>
-Package pdftex.def Info: individual_accuracy_corr1.png used on input line 335.
+Package pdftex.def Info: individual_accuracy_corr1.png used on input line 334.
 (pdftex.def)             Requested size: 114.27481pt x 88.73485pt.
 
 <individual_accuracy_mutinf1.png, id=44, 530.9436pt x 406.1574pt>
 File: individual_accuracy_mutinf1.png Graphic file (type png)
 
 <use individual_accuracy_mutinf1.png>
-Package pdftex.def Info: individual_accuracy_mutinf1.png used on input line 340
+Package pdftex.def Info: individual_accuracy_mutinf1.png used on input line 339
 .
 (pdftex.def)             Requested size: 114.27481pt x 87.4151pt.
 
 <accuracy_corr1.png, id=45, 523.2348pt x 404.2302pt>
 File: accuracy_corr1.png Graphic file (type png)
  <use accuracy_corr1.png>
-Package pdftex.def Info: accuracy_corr1.png used on input line 345.
+Package pdftex.def Info: accuracy_corr1.png used on input line 344.
 (pdftex.def)             Requested size: 114.27481pt x 88.28326pt.
 
 <accuracy_mutinf1.png, id=46, 535.7616pt x 410.4936pt>
 File: accuracy_mutinf1.png Graphic file (type png)
 
 <use accuracy_mutinf1.png>
-Package pdftex.def Info: accuracy_mutinf1.png used on input line 350.
+Package pdftex.def Info: accuracy_mutinf1.png used on input line 349.
 (pdftex.def)             Requested size: 114.27481pt x 87.55287pt.
  (./my_paper.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-[]\OT1/ptm/m/n/9 I. J. Good-fel-low, D. Warde-Farley, M. Mirza,
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 4--6
-\OT1/ptm/m/n/9 A. Courville, and Y. Ben-gio, ``Net-work in net-work,''
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
  [7 <./correlation.png>]
-Underfull \hbox (badness 1917) in paragraph at lines 8--11
-\OT1/ptm/m/n/9 and R. Salakhut-di-nov, ``Im-prov-ing neu-ral net-works by
- []
-
-
-Underfull \hbox (badness 4084) in paragraph at lines 8--11
-\OT1/ptm/m/n/9 pre-vent-ing co-adaptation of fea-ture de-tec-tors,'' \OT1/ptm/m
-/it/9 CoRR\OT1/ptm/m/n/9 ,
- []
-
-
-Underfull \hbox (badness 6428) in paragraph at lines 53--56
+Underfull \hbox (badness 6428) in paragraph at lines 44--47
 []\OT1/ptm/m/n/9 C. Szegedy, W. Liu, Y. Jia, P. Ser-manet, S. R.
  []
 
 [8 <./feature1.png> <./feature2.png> <./feature3.png> <./feature4.png> <./indiv
 idual_accuracy_corr1.png> <./individual_accuracy_mutinf1.png> <./accuracy_corr1
 .png> <./accuracy_mutinf1.png>]
-Underfull \hbox (badness 1253) in paragraph at lines 93--95
+Underfull \hbox (badness 1917) in paragraph at lines 61--64
+\OT1/ptm/m/n/9 and R. Salakhut-di-nov, ``Im-prov-ing neu-ral net-works by
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 61--64
+\OT1/ptm/m/n/9 pre-vent-ing co-adaptation of fea-ture de-tec-tors,'' \OT1/ptm/m
+/it/9 CoRR\OT1/ptm/m/n/9 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+[]\OT1/ptm/m/n/9 I. J. Good-fel-low, D. Warde-Farley, M. Mirza,
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 66--68
+\OT1/ptm/m/n/9 A. Courville, and Y. Ben-gio, ``Net-work in net-work,''
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 103--105
 \OT1/ptm/m/n/9 t-sne,'' \OT1/ptm/m/it/9 Jour-nal of Ma-chine Learn-ing Re-searc
 h\OT1/ptm/m/n/9 , vol. 9,
  []
@@ -475,10 +471,10 @@ h\OT1/ptm/m/n/9 , vol. 9,
 
 ] (./my_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3975 strings out of 493315
- 58421 string characters out of 6137904
- 130260 words of memory out of 5000000
- 7321 multiletter control sequences out of 15000+600000
+ 3977 strings out of 493315
+ 58433 string characters out of 6137904
+ 130268 words of memory out of 5000000
+ 7323 multiletter control sequences out of 15000+600000
  39287 words of font info for 84 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,18n,38p,2065b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -496,7 +492,7 @@ live/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/20
 13/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on my_paper.pdf (9 pages, 10233844 bytes).
+Output written on my_paper.pdf (9 pages, 10234403 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream

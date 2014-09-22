@@ -3,48 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: my_paper.aux
 The style file: hieeetr.bst
 Database file #1: my_paper.bib
-Warning--empty journal in nin
 Warning--empty journal in maxout
 Warning--empty journal in googlenet
-You've used 19 entries,
+Warning--empty journal in nin
+Warning--empty journal in style
+You've used 21 entries,
             1914 wiz_defined-function locations,
-            789 strings with 10032 characters,
-and the built_in function-call counts, 5476 in all, are:
-= -- 435
-> -- 327
+            797 strings with 10448 characters,
+and the built_in function-call counts, 5904 in all, are:
+= -- 459
+> -- 364
 < -- 1
-+ -- 114
-- -- 95
-* -- 435
-:= -- 815
-add.period$ -- 19
-call.type$ -- 19
-change.case$ -- 19
++ -- 127
+- -- 106
+* -- 471
+:= -- 886
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 284
-empty$ -- 533
-format.name$ -- 95
-if$ -- 1298
+cite$ -- 25
+duplicate$ -- 308
+empty$ -- 578
+format.name$ -- 106
+if$ -- 1393
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 17
-newline$ -- 60
-num.names$ -- 25
-pop$ -- 108
+int.to.str$ -- 21
+missing$ -- 19
+newline$ -- 66
+num.names$ -- 27
+pop$ -- 123
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 147
+skip$ -- 150
 stack$ -- 0
 substring$ -- 260
-swap$ -- 87
+swap$ -- 88
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 39
-width$ -- 21
-write$ -- 177
-(There were 3 warnings)
+warning$ -- 4
+while$ -- 41
+width$ -- 23
+write$ -- 193
+(There were 4 warnings)
